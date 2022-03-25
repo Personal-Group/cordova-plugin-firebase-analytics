@@ -50,6 +50,8 @@ module.exports = {
         });
     },
     requestTrackingAuthorization: function(showInformation, title, message, buttonTitle) {
+        return reject(new TypeError("App Tracking Transparency not supported"));
+    /*
         return new Promise(function(resolve, reject) {
 
             if(showInformation) {
@@ -68,5 +70,7 @@ module.exports = {
 
             exec(resolve, reject, PLUGIN_NAME, "requestTrackingAuthorization", [showInformation, title, message, buttonTitle]);
         });
+        */
     }
+
 };

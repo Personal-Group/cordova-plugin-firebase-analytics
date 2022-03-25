@@ -9,6 +9,8 @@
 - (void)setCurrentScreen:(CDVInvokedUrlCommand*)command;
 - (void)resetAnalyticsData:(CDVInvokedUrlCommand*)command;
 - (void)setDefaultEventParameters:(CDVInvokedUrlCommand*)command;
-- (void)requestTrackingAuthorization:(CDVInvokedUrlCommand*)command;
+/* Remove ATT usage
+- (void)requestTrackingAuthorization:(CDVInvokedUrlCommand*)command; 
+*/
 
 @end

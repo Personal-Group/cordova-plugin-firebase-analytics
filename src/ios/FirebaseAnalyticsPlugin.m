@@ -1,7 +1,9 @@
 #import "FirebaseAnalyticsPlugin.h"
 
 @import Firebase;
+/* Remove ATT usage
 @import AppTrackingTransparency;
+*/
 
 @implementation FirebaseAnalyticsPlugin
 
@@ -78,6 +80,7 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
+/* Remove ATT usage
 - (void)requestTrackingAuthorization:(CDVInvokedUrlCommand *)command {
     
     bool showInformation = [[command.arguments objectAtIndex:0] boolValue];
@@ -144,7 +147,6 @@ typedef void (^showPermissionInformationPopupHandler)(UIAlertAction*);
     [alert addAction:okAction];
     [self.viewController presentViewController:alert animated:YES completion:nil];
 }
-
-
+*/
 
 @end
