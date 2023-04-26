@@ -8,6 +8,45 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 5.0.0-OS9
+
+### 2023-01-12
+- Feat: Return user's response to prompt [RMET-2112](https://outsystemsrd.atlassian.net/browse/RMET-2112)
+
+## 5.0.0-OS8
+
+### 2022-10-31
+- Replaced jcenter with more up to date mavenCentral [RMET-2036](https://outsystemsrd.atlassian.net/browse/RMET-2036)
+
+### 2022-11-10
+- Use fixed versions (https://outsystemsrd.atlassian.net/browse/RMET-2045).
+
+## 5.0.0-OS7
+### 2022-08-17
+- Update Firebase Analytics version to use `21.1.+` (https://outsystemsrd.atlassian.net/browse/RMET-1766).
+
+## 5.0.0-OS6
+### 2021-07-12
+- Removed unused parameters from RequestTrackingAuthorization (https://outsystemsrd.atlassian.net/browse/RMET-1715)
+
+## 5.0.0-OS5
+### 2021-05-16
+- Update dependency to firebase-core to have error message improved (https://outsystemsrd.atlassian.net/browse/RMET-1538)
+
+## 5.0.0-OS4
+### 2021-05-09
+- Made NSUserTrackingUsageDescription optional in .plist file (https://outsystemsrd.atlassian.net/browse/RMET-1547)
+
+### 2021-05-06
+- Fixed default value for NSUserTrackingUsageDescription in plugin.xml (https://outsystemsrd.atlassian.net/browse/RMET-1547)
+
+## 5.0.0-OS3
+## 2022-04-19
+- Hook to add google services dependency to build.gradle. [RMET-1497](https://outsystemsrd.atlassian.net/browse/RMET-1497)
+
+### 2021-04-18
+- Added hook to enable the usage of a dynamic message for the NSUserTrackingUsageDescription field for iOS (https://outsystemsrd.atlassian.net/browse/RMET-1496)
+
 ## 5.0.0-OS2
 ### 2021-11-05
 - New plugin release to include metadata tag in Extensibility Configurations in the OS wrapper
