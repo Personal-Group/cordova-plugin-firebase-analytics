@@ -11,6 +11,12 @@
 
 @end
 
+@interface FirebaseAnalyticsPlugin ()
+
+@property (strong, nonatomic) id<OSFANLManageable> manager;
+
+@end
+
 @implementation FirebaseAnalyticsPlugin
 
 - (void)pluginInitialize {
