@@ -30,27 +30,6 @@ The changes documented here do not include those from the original repository.
 ### 2023-01-12
 - Feat: Return user's response to prompt [RMET-2112](https://outsystemsrd.atlassian.net/browse/RMET-2112)
 
-## 5.0.0-OS11
-
-### 2023-12-22
-- Feat: add new e-commerce logging method on Android (https://outsystemsrd.atlassian.net/browse/RMET-2730).
-
-### 2023-12-18
-- Feat: Implement e-commerce logging on iOS (https://outsystemsrd.atlassian.net/browse/RMET-2731).
-
-### 2023-12-13
-- Feat: add new e-commerce logging method (https://outsystemsrd.atlassian.net/browse/RMET-2729).
-
-## 5.0.0-OS10
-
-### 2023-08-11
-- Feat: update firebase core version (https://outsystemsrd.atlassian.net/browse/RMET-2451).
-
-## 5.0.0-OS9
-
-### 2023-01-12
-- Feat: Return user's response to prompt [RMET-2112](https://outsystemsrd.atlassian.net/browse/RMET-2112)
-
 ## 5.0.0-OS8
 
 ### 2022-10-31
