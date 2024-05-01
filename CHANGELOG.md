@@ -6,7 +6,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
-## [Unreleased]
+## 5.0.0-OS12
+- Chore: Update `FirebaseAnalytics` iOS pod to version `10.23.0` (https://outsystemsrd.atlassian.net/browse/RMET-3274).
+
+## 5.0.0-OS11
+
+### 2023-12-22
+- Feat: add new e-commerce logging method on Android (https://outsystemsrd.atlassian.net/browse/RMET-2730).
+
+### 2023-12-18
+- Feat: Implement e-commerce logging on iOS (https://outsystemsrd.atlassian.net/browse/RMET-2731).
+
+### 2023-12-13
+- Feat: add new e-commerce logging method (https://outsystemsrd.atlassian.net/browse/RMET-2729).
+
+## 5.0.0-OS10
+
+### 2023-08-11
+- Feat: update firebase core version (https://outsystemsrd.atlassian.net/browse/RMET-2451).
 
 ## 5.0.0-OS9
 
